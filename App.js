@@ -1,10 +1,11 @@
 import 'react-native-gesture-handler';
-import * as React from 'react';
+import React from 'react';
+import Icon from 'react-native-vector-icons/dist/FontAwesome';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
-import HomeScreen from './components/HomeScreen';
-import DetailScreen from './components/DetailScreen';
+import HomeScreen from './screens/HomeScreen';
+import DetailScreen from './screens/DetailScreen';
 
 const Stack = createStackNavigator();
 
